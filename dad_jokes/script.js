@@ -17,16 +17,3 @@ async function generateJoke(){
 
     jokeEl.innerHTML = data.joke;
 }
-
-// function generateJoke(){
-//     const config = {
-//         headers: {
-//             'Accept': 'application/json'
-//         }
-//     }
-//     fetch('https://icanhazdadjoke.com/', config)
-//     .then(response => response.json())
-//     .then((data) => {
-//         jokeEl.innerHTML = data.joke;
-//     });
-// }
